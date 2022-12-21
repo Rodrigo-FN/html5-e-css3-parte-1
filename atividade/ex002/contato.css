@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -93,4 +95,77 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: auto;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+form label, fieldset {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+legend {
+    margin: 20px;
+}
+
+.sel {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.411);
+
+    transition: .5s;
+}
+
+.enviar:hover {
+    cursor: pointer;
+    background-color: orangered;
+    transform: rotate(20deg) scale(1.2);
+}
+
+table {
+    margin: 20px 0px 40px;
+    border-collapse: collapse;
+    
+}
+
+thead {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 15px;
 }
