@@ -136,3 +136,7 @@ footer a:hover {
 .preco {
     font-size: 1.3em;
 }
+
+footer#prod {
+    background-image: url('../image/bg.jpg');
+}
