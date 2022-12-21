@@ -132,3 +132,7 @@ footer a:hover {
     width: 300px;
     border-radius: 50%;
 }
+
+.preco {
+    font-size: 1.3em;
+}
